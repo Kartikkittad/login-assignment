@@ -1,0 +1,84 @@
+.card {
+    max-width: 40rem;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 30px;
+    gap: 30px;
+}
+
+img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+input {
+    width: 28rem;
+}
+
+label {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Poppins' sans-serif;
+}
+
+i {
+    margin-top: 5px;
+    margin-left: -30px;
+    cursor: pointer;
+
+}
+
+form {
+    margin-left: 20px;
+}
+
+.pass {
+    margin-top: -10px;
+}
+
+.form-check {
+    font-size: 12px;
+    margin-top: -25px;
+}
+
+span {
+    color: #84c67c;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 10px;
+        /* Reduce padding on smaller screens */
+    }
+}
+
+@media (max-width: 650px) {
+    .card {
+        padding: 10px;
+        width: 30rem;
+        margin-bottom: 50px;
+    }
+
+    img {
+        width: 200px;
+        height: 600px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    input {
+        width: 10rem;
+    }
+
+    form {
+        margin-left: 10px;
+    }
+}
